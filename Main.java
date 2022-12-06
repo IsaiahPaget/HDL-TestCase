@@ -54,12 +54,10 @@ public class Main
                 output-file %s.out,
                 """, name, name);
             output.write(boilerPlate);
-            System.out.println(out.size());
             
             // for items in array
             for (int i = 0 ; i < out.size() ; i++)
             {
-                System.out.println("outer for");
                 // for chars in items
                 for (int j = 0 ; j < out.get(i).length() ; j++)
                 {
